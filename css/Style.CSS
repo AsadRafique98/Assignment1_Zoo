@@ -1,0 +1,65 @@
+
+.btn {
+	position: middle;
+	display:  inline-block;
+	background: #006400;
+	color:  #fff;
+	padding: 50px 30px;
+    margin:  10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
+.btn:hover{
+	background: #563434;
+}
+nav{
+	flex: 1;
+	text-align: center;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 100px;
+}
+	nav ul{
+		position: middle;
+		top: 70px;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+	nav ul li{
+		display: block;
+		margin-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 100px; 
+	}
+	nav ul li a{
+		color: #ff523b;
+	}
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+	}
+	p{
+	color: #FFFFFF;
+	font-size: 30px;
+	line-height: 30px;
+	margin: 155px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+}
